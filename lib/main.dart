@@ -1,5 +1,7 @@
 import 'package:ex_ui_demo/header_section.dart';
+import 'package:ex_ui_demo/pay_section.dart';
 import 'package:ex_ui_demo/top_icon_section.dart';
+import 'package:ex_ui_demo/line.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
@@ -22,10 +24,12 @@ class MyApp extends StatelessWidget {
                 HeaderSection(),
                 Expanded(
                     child: ListView(
-                      padding: EdgeInsets.all(16),
+                  padding: EdgeInsets.all(16),
                   children: [
                     TopIconSection(),
-                    BillingSuggestionSection()
+                    BillingSuggestionSection(),
+                    Line(),
+                    PaySection(),
                   ],
                 ))
               ],
