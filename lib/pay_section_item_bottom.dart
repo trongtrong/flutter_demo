@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 
-class PaySectionItemTop extends StatefulWidget{
+class PaySectionItemBottom extends StatefulWidget{
   PaySectionItemState createState() => PaySectionItemState();
 }
 
-class PaySectionItemState extends State<PaySectionItemTop>{
+class PaySectionItemState extends State<PaySectionItemBottom>{
 
   @override
   Widget build(BuildContext context) {
@@ -13,10 +13,10 @@ class PaySectionItemState extends State<PaySectionItemTop>{
         child: Row(
           mainAxisAlignment: MainAxisAlignment.spaceAround,
           children: [
-            buildItem(Icons.favorite, 'Nạp tiền điện thoại'),
-            buildItem(Icons.add, 'Mã thẻ điện thoại'),
-            buildItem(Icons.face, 'Mua thẻ data 3G/4G'),
-            buildItem(Icons.update, 'Thanh toán hóa đơn'),
+            buildItem(Icons.favorite, 'Truyền hình'),
+            buildItem(Icons.add, 'Ưu đãi'),
+            buildItem(Icons.face, 'Internet'),
+            buildItem(Icons.update, 'Thêm'),
           ],
         ),
     );
